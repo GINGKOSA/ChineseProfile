@@ -1,0 +1,336 @@
+body
+{
+margin: 0;
+overflow: hidden;
+}
+#hangar
+    {
+        z-index: 1;
+        position: absolute;
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+        display: block;
+    }   
+#title
+    {
+        position: absolute;
+        z-index: 1;
+        font-size: 5vw;
+        margin-top: 30%;
+        margin-left: 35%;
+        color: red;
+        text-shadow: #000000 10px 10px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+        font-style: italic;
+        
+    }
+#cockpit
+    {
+        z-index: 3;
+        position: fixed;
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+        display: block;
+    }
+#cockpitTwo
+{
+    z-index: 2;
+    position: fixed;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+#btnHome
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 39%;
+    }
+#btnUn
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 42%;
+    }
+#btnDeux
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 45%;
+    }
+#btnTrois
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 48%;
+    }
+#btnQuatre
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 51%;
+    }
+#btnCinq
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 54%;
+    }
+#btnSix
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 57%;
+    }
+#btnSeven
+    {
+        z-index:4;
+        position: fixed;
+        max-width: 2.5%;
+        min-width: 2.5%;
+        height: auto;
+        display: block;
+        margin-top: 5px;
+        margin-left: 60%;
+    }
+#un
+    {
+      position: absolute;
+      margin-top: 120%;;
+    }
+    
+#deux
+    {
+      position: absolute;
+      margin-top: 230%;
+    }
+#trois
+    {
+      position: absolute;
+      margin-top: 350%;
+    }
+#quatre
+    {
+      position: absolute;
+      margin-top: 460%;
+    }
+#cinq
+    {
+      position: absolute;
+      margin-top: 570%;
+    }
+#six
+    {
+      position: absolute;
+      margin-top: 680%;
+    }
+#seven
+    {
+      position: absolute;
+      margin-top: 802%;
+    }
+#home
+    {
+      position: absolute;
+      margin-top: 20%;
+    }
+#zoro
+    {
+        z-index: 1;
+        position: absolute;
+        max-width: 20%;
+        min-width: 20%;
+        height: auto;
+        display: block;
+        margin-top: 120%;
+        margin-left: 5%;
+    }
+#zoroP
+    {
+        z-index: 1;
+        position: absolute;
+        height: auto;
+        display: block;
+        margin-top: 123.5%;
+        font-size: 1.5vw;
+        font-style: italic;
+        text-align: justify;
+        padding: 5px;
+        margin-left: 25%;
+        margin-right: 5%;
+        background-color: rgba(0, 255, 255, 0.452);
+
+    }
+    #violet
+    {
+        position: absolute;
+        z-index: 1;
+        margin-top: 235%;
+        font-size: 1.5vw;
+        font-style: italic;
+        background-color: rgb(85, 2, 37);
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 5px;
+        text-align: center;
+        
+      }
+    #multifonction
+      {
+        position: absolute;
+        z-index: 1;
+        margin-top: 355%;
+        margin-left: 43%;
+        max-width: 15%;
+        min-width: 15%;
+        height: auto;
+        display: block;
+      
+      }
+    #multifonctionP
+      {
+        position: absolute;
+        z-index: 1;
+        margin-top: 354%;
+        margin-left: 65%;
+        margin-right: 5%;
+        background-color: rgba(165, 42, 42, 0.801);
+        font-size: 1.5vw;
+        font-style: italic;
+        text-align: justify;
+        padding: 5px;
+      }
+      #musique
+      {
+        position: absolute;
+        z-index: 1;
+        margin-top: 465%;
+        margin-left: 41%;
+        max-width: 20%;
+        min-width: 20%;
+        height: auto;
+        display: block;
+      }
+      #musiqueDeux
+      {
+        position: absolute;
+        z-index: 3;
+        margin-top:495%;
+        margin-left: 43%;
+        max-width: 15%;
+        min-width: 15%;
+        height: auto;
+        display: block;
+      }
+    #musiqueP
+        {
+        position: absolute;
+        z-index: 1;
+        margin-top: 465%;
+        margin-left: 5%;
+        margin-right: 60%;
+        padding: 5px;
+        background-color: orange;
+        font-size: 1.5vw;
+        text-align: justify;
+        font-style: italic;
+        }
+#video
+{
+  position: absolute;
+  z-index: 1;
+  margin-top: 601%;
+  margin-left: 41.5%;
+  max-width: 19%;
+  min-width: 19%;
+  height: auto;
+  display: block;
+}
+#videoP
+{
+position: absolute;
+z-index: 1;
+margin-top: 580% ;
+background-color: rgba(255, 68, 0, 0.61);
+margin-left: 5%;
+margin-right: 5%;
+padding: 5px;
+font-size: 1.5vw;
+padding: 5px;
+text-align: center;
+font-style: italic;
+}
+#lieuP
+{
+  position: absolute;
+  z-index: 1;
+  margin-top: 690%;
+  background-color: rgba(45, 125, 216, 0.678);
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.5vw;
+  text-align: center;
+  font-style: italic;
+}
+#wolf
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: 805%;
+    margin-left: 40%;
+    max-width: 20%;
+    min-width: 20%;
+    height: auto;
+    display: block;    
+}
+#wolfP
+{
+  position: absolute;
+  z-index: 1;
+  margin-top: 820%;
+  font-size: 1vw;
+  background-color: rgba(0, 0, 139, 0.884);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
